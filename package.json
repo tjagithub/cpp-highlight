@@ -1,0 +1,25 @@
+{
+  "name": "cpp-highlight",
+  "displayName": "cpp-highlight++",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "cpp",
+      "aliases": ["C++", "cpp"],
+      "extensions": ["cpp","cc","cxx","c++","cp","C","h","hpp","hxx","hh","h++","inl","tpp","txx","ipp"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "cpp",
+      "scopeName": "source.cpp",
+      "path": "./syntaxes/cpp.tmLanguage.json"
+    }]
+  }
+}
